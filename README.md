@@ -5,7 +5,7 @@ D3 treemap visualization of hierarchical data, built for the FreeCodeCamp Data V
 ## Features
 
 - SVG treemap showing the top 100 highest-grossing movies grouped by genre
-- Each tile sized proportionally to box-office value; tiles labeled with split camel-case movie names
+- Tile sized proportionally to value; long labels wrapped across lines using a capital-letter split heuristic
 - Ordinal color scale (`schemeSet1`) assigns a distinct color per genre category
 - Hover tooltip displaying movie name, genre category, and revenue value
 - Color legend bar rendered below the treemap with genre labels
